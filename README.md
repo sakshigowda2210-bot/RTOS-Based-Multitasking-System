@@ -53,6 +53,13 @@ Semaphores are used to synchronize access to shared resources and coordinate tas
 The project was developed and tested using the Wokwi online simulator.
 
 The simulation demonstrates FreeRTOS multitasking and task communication without requiring physical hardware.
+### Wokwi Circuit
+
+![Wokwi Circuit](freertos.jpeg)
+
+### Simulation Output
+
+![Simulation Output](freertos2.png)
 
 ## Learning Outcomes
 
