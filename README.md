@@ -1,5 +1,7 @@
 # RTOS-Based Multitasking System
 
+Run in Wokwi: https://wokwi.com/projects/472432111311544321
+
 ## Overview
 
 An RTOS-based embedded system project using ESP32 and FreeRTOS. The project demonstrates multitasking by running multiple tasks concurrently and coordinating them using FreeRTOS synchronization and communication mechanisms.
