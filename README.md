@@ -25,6 +25,8 @@ An RTOS-based embedded system project using ESP32 and FreeRTOS. The project demo
 - GPIO
 - UART
 - Wokwi
+- Mutex 
+- Event Groups
 
 ## Project Structure
 
@@ -33,6 +35,20 @@ An RTOS-based embedded system project using ESP32 and FreeRTOS. The project demo
 | `sketch.ino` | Main application and FreeRTOS task implementation |
 | `diagram.json` | Wokwi circuit configuration |
 | `wokwi-project.txt` | Wokwi project configuration |
+
+## Tasks (7)
+LED, Sensor, Monitor, Button, Event, System Status, UART
+
+## Synchronization
+- Queue: Sensor task sends data to Monitor task
+- Mutex: protects shared Serial output
+- Event Group: button press signals the Event task
+
+## Pins
+- LED: GPIO 2
+- Button: GPIO 4
+
+Note: sensor values are simulated using random().
 
 ## RTOS Concepts Demonstrated
 
